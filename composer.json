@@ -11,16 +11,16 @@
     ],
     "require" : {
         "php" : ">=8",
-        "illuminate/config" : "^9.44",
-        "illuminate/support" : "^9.44"
-    },
-    "require-dev" : {
-        "phpunit/phpunit" : "^9.5"
+        "illuminate/config" : "^9.52",
+        "illuminate/support": "^9.52"
     },
     "autoload" : {
         "psr-4" : {
             "NcJoes\\PopplerPhp\\" : "src/PopplerPhp"
         }
     },
-    "minimum-stability" : "stable"
+    "minimum-stability" : "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
 }
